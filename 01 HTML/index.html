@@ -1,0 +1,107 @@
+<!-- 2 -->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- 3 -->
+    <title>Мой веб-сайт</title>
+</head>
+<body>
+
+<!-- 4-5 -->
+    <h1>Заголовок первого уровня</h1>
+    <h3>Заголовок третьего уровня</h3>
+    
+    <!-- 6-7 -->
+    <p style="color: brown;">
+        <strong>Первое слово</strong> текста параграфа. ... Длинный текст параграфа ... <em>последнее слово</em>.
+    </p>
+
+    <!-- 8 -->
+    <ul>
+        <li>Москва</li>
+        <li>Санкт-Петербург</li>
+        <li>Новосибирск</li>
+        <li>Екатеринбург</li>
+        <li>Нижний Новгород</li>
+    </ul>
+
+    <!-- 9 -->
+    <ol>
+        <li>Мука</li>
+        <li>Молоко</li>
+        <li>Яйца</li>
+        <li>Сахар</li>
+        <li>Соль</li>
+    </ol>
+
+    <!-- 10 -->
+    <a href="https://t.me/s/evgenii_ponasenkov/" style="font-size: large;" target="_blank">Евгений Понасенков ТГ</a><br>
+    <a href="https://dzen.ru/first_scientific" style="color: blueviolet;">Евгений Понасенков Дзен</a><br>
+    <a href="https://vk.com/evgenyponasenkov?ysclid=lmopc7pdo336951628">Евгений Понасенков ВК</a><br>
+
+    <!-- 11-12 -->
+    <img src="smallcar.jpg" width="150" alt="Машина из корня папки">
+    <img src="image/car.jpg" width="150" alt="Машина из папки картинок">
+    <img style="border-radius: 5%;" src="https://avatars.mds.yandex.net/i?id=3b05476128e0c70f5de538e0882ee7d21661326b-9569150-images-thumbs&n=13" width="150" alt="Машина с сайта">
+
+<!-- 13 -->
+    <table>
+        <thead style="background-color: aquamarine;">
+        <tr>
+            <th>Данные 1</th>
+            <th>Данные 2</th>
+            <th>Данные 3</th>
+            <th>Данные 4</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>Данные 5</td>
+            <td>Данные 6</td>
+            <td>Данные 7</td>
+            <td>Данные 8</td>
+        </tr>
+        <tr>
+            <td>Данные 9</td>
+            <td>Данные 10</td>
+            <td>Данные 11</td>
+            <td>Данные 12</td>
+        </tr>
+    </table><br>
+
+<!-- 14-21 -->
+    <form action="обработчик.php" method="post" enctype="multipart/form-data">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="surname">Фамилия:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label>Пол:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br><br>
+        <label for="dropdown">Выбор:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Опция 1</option>
+            <option value="option2">Опция 2</option>
+            <option value="option3">Опция 3</option>
+        </select><br><br>
+        <label for="multiselect">Множественный выбор:</label>
+        <select id="multiselect" name="multiselect" multiple>
+            <option value="value1">Значение 1</option>
+            <option value="value2">Значение 2</option>
+            <option value="value3">Значение 3</option>
+        </select><br><br>
+        <label for="textarea">Текстовое поле:</label><br>
+        <textarea id="textarea" name="textarea" rows="5" cols="40"></textarea><br><br>
+        <label for="file">Прикрепить файл:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+
+</body>
+</html>
