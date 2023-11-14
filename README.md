@@ -1,4 +1,4 @@
-**# Fullstack**
+# Fullstack**
 
 ### Projects for the fullstack programming course 
 
