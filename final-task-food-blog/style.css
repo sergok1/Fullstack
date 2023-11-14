@@ -1,0 +1,46 @@
+/* Общие стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Стили для ячеек и заголовков таблицы */
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Стили для заголовков столбцов */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Стили для категории */
+span {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Стили для разных категорий (можете настроить цвета по своему вкусу) */
+.food {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.travel {
+    background-color: #2196F3;
+    color: white;
+}
+
+.health {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Дополнительные стили */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
