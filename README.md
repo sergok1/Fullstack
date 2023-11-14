@@ -1,4 +1,4 @@
-# lab_fullstack
+# Fullstack
 
 # Projects for the fullstack programming course 
 
